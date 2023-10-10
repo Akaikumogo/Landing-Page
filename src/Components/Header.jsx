@@ -1,5 +1,7 @@
 import logo from "../Images/logo.png";
 import background from "../Images/headerBackground.png";
+
+import frame1 from "../Images/Frame 1.png";
 const Header = () => {
   return (
     <div
@@ -22,10 +24,15 @@ const Header = () => {
             </a>
           </div>
         </nav>
-        <div className="w-[50%]  h-full border ">
-          <p className>Натуральное</p>
-          <h1>подсолнечное масло от производителя «масло Волгодонска»</h1>
-          <button>Консультация</button>
+        <div className=" w-full h-[40 0px] flex justify-between ">
+          <div className="w-[45%] mt-[65px]   h-full ">
+            <p className="natural  ">Натуральное</p>
+            <h1 className="maslo mt-3">
+              подсолнечное масло от производителя «масло Волгодонска»
+            </h1>
+            <button className="button mt-5">Консультация</button>
+          </div>
+          <img className="w-[50%] h-[90vh]" src={frame1} alt="" />
         </div>
       </div>
     </div>

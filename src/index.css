@@ -11,3 +11,47 @@
 ::-webkit-scrollbar {
   display: none;
 }
+.yellow {
+  color: var(--yellow, #f9b101);
+}
+.natural {
+  color: var(--yellow, #f9b101);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.button {
+  display: inline-flex;
+  padding: 15px 40px;
+  align-items: flex-start;
+  color: black;
+  gap: 10px;
+  border-radius: 30px 5px;
+  background: var(--yellow, #f9b101);
+}
+
+.about-title {
+  color: var(--black, #333);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.box {
+  border-radius: 20px;
+  background: #d9d9d9;
+}
+.maslo {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
